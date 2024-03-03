@@ -20,7 +20,7 @@ export function Search() {
 
   useEffect(() => {
     search();
-  }, [title]); // monitora a renderinzação
+  }, [title]);
 
   return (
     <ContainerResults>

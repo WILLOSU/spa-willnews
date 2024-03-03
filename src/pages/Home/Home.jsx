@@ -1,35 +1,3 @@
-Skip to content
-codethi
-/
-spa-breakingnews-new
-
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Breadcrumbsspa-breakingnews-new/src/pages/Home
-/Home.jsx
-Go to file
-t
-Latest commit
-codethi
-codethi
-feat: auth
-d0cd8c8
- · 
-4 months ago
-History
-Breadcrumbsspa-breakingnews-new/src/pages/Home
-/Home.jsx
-File metadata and controls
-
-Code
-
-Blame
-51 lines (45 loc) · 1.25 KB
 import { useState, useEffect } from "react";
 
 import { Card } from "../../components/Card/Card";
@@ -81,4 +49,3 @@ export default function Home() {
     </>
   );
 }
-spa-breakingnews-new/src/pages/Home/Home.jsx at main · codethi/spa-breakingnews-new

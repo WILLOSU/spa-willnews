@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = "http://localhost:3000";
+const baseURL = "http://localhost:3001";
 
 export function getAllPosts() {
   const response = axios.get(`${baseURL}/posts`); 
@@ -14,14 +14,5 @@ export function getTopPost() {
 
 export function searchPosts(title) {
   const response = axios.get(`${baseURL}/posts/search?title=${title}`);
-  return response;
-}
-
-export function getAllPostsByUser(){
-  const response = axios.get(`${baseURL}/posts/byUserId`, {
-    headers: {
-      Authorization: `Bearer ${Cookies.get("token")}`,
-    },
-  });
   return response;
 }

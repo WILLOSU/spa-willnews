@@ -29,7 +29,3 @@ export function Card(props) {
     </CardContainer>
   );
 }
-
-// "props" são basicamente informações ou dados que você pode passar de um componente pai para um componente filho. Isso permite que os componentes compartilhem informações e sejam reutilizáveis.
-// aula 38 aos 25 minutos bem explicado o que é props.
-
