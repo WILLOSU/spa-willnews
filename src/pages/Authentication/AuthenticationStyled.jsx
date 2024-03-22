@@ -24,8 +24,8 @@ export const Section = styled.section`
   height: 400px;
   padding: 2rem;
   gap: 1rem;
-  background-color: ${(props) => (props.type === "signin" ? "blue" : "white")};
-  color: ${(props) => (props.type === "signup" ? "blue" : "white")};
+  background-color: ${(props) => (props.type === "signin" ? "#808080" : "white")};
+  color: ${(props) => (props.type === "signup" ? "#808080" : "white")};
 
   h2 {
     font-size: 2rem;

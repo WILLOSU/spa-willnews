@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Nav = styled.nav`
+export const Nav = styled.nav`// utilizando componentes
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -18,7 +18,7 @@ export const ImageLogo = styled.img`
   height: 3.5rem;
   object-fit: cover;
   cursor: pointer;
-`;
+`;// como uma herança
 
 export const InputSpace = styled.div`
   position: relative;
@@ -40,12 +40,12 @@ export const InputSpace = styled.div`
     transition: 0.3s;
   }
 
-  button:hover {
+  button:hover { 
     background-color: #757575;
     color: #f5f5f5;
   }
 
-  input {
+  input { // filho
     outline: none;
     font-size: 1rem;
     padding: 0.6rem;
@@ -54,11 +54,11 @@ export const InputSpace = styled.div`
     width: 100%;
     border-radius: 0.3rem;
 
-    :focus {
+    :focus { // neto
       border: 1px solid #0bade3;
     }
   }
-`;
+`;// como uma herança
 
 export const ErrorSpan = styled.span`
   background-color: #ffcdcd;

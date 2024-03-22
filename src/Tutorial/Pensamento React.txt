@@ -1,0 +1,19 @@
+Pensando do jeito React: https://pt-br.reactjs.org/docs/thinki...
+
+Hierarquia de Componentes
+
+em React tudo é um componente
+
+Menus se replica
+
+Futer se replica
+
+NavBar se replica
+
+os meus cards
+
+profile é indentico ,
+
+criando um componente não preciso, criando um código reutilezavel.
+
+grandes vantagens do React.

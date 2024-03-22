@@ -4,3 +4,7 @@ export function TextLimit({ text, limit }) {
 
   return <p>{textLimited}</p>;
 }
+
+
+// clique bait, apresenta parte da notícia e se o usuário precisar ver o restante da notícia
+// precisa logar

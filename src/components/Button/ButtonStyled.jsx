@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const ButtonSpace = styled.button`
-  background-color: #0bade3;
+  background-color: #238b94;
   border: none;
   outline: none;
   font-size: 1rem;
@@ -17,6 +17,6 @@ export const ButtonSpace = styled.button`
   text-transform: uppercase;
 
   :hover {
-    background-color: #0a86af;
+    background-color: #1f6568;
   }
 `;

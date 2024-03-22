@@ -28,7 +28,7 @@ export const CardBody = styled.article`
     width: 40%;
     object-fit: cover;
     object-position: center;
-    border-radius: 0 0.3rem 0.3rem 0;
+    border-radius: 0 0.3rem 0.3rem 0; // arrendondar as imagens
   }
 `;
 
@@ -40,7 +40,7 @@ export const CardHeader = styled.article`
 
   h2 {
     margin-bottom: 1rem;
-    font-size: ${(props) => (props.top ? "3rem" : "1.1rem")};
+    font-size: ${(props) => (props.top ? "3rem" : "1.1rem")}; //  ternário para card top 3rem e outros cards 1rem
     width: 100%;
   }
 `;

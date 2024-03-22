@@ -13,7 +13,7 @@ export function Card(props) {
 
           <CardFooter>
             <section>
-              <i className="bi bi-hand-thumbs-up"></i>
+              <i className="bi bi-hand-thumbs-up"></i> 
               <span>{props.likes?.length}</span>
             </section>
 

@@ -1,0 +1,76 @@
+CORES 238b94
+      00777f 
+
+1º Baixar o NodeJS (Versão LTS): https://nodejs.org/en/
+
+Observação 
+
+Single-Page Applications (SPAs)?
+
+ aplicações web que carregam uma única página HTML inicialmente e atualizam dinamicamente o conteúdo dentro dessa página enquanto os usuários interagem com a aplicação. Isso cria uma experiência de usuário fluida e sem interrupções, similar ao uso de uma aplicação desktop nativa.
+
+ 2º Criando um Aplicativo React .
+
+ https://vitejs.dev/guide/
+
+ no visual code digitar o comando.
+
+ npm create vite@latest my-vue-app --template vue
+
+ npm install
+
+ Prototipagem Projeto
+
+ https://www.figma.com/file/oyo6REv277ULzVtDoikuPs/Breaking-News---Wireframe?type=design&node-id=0-1&mode=design&t=mZnSbyJlqAMjJqLu-0
+
+
+3º Utilizado icones do Bootstrap
+
+                93 Beautiful CSS box-shadow: https://getcssscan.com/css-box-shadow...
+                Bootstrap icons: https://icons.getbootstrap.com/icons/...
+
+4º Utilizando  Styled Components
+
+Documentação do Styled Components: https://styled-components.com/
+
+instalar --> npm install styled-components
+
+utlizei a extensão no vscode a extensão abaixo
+vscode-styled-components
+
+"styled componets usa css puro, a diferença é que aogra o css tem o mesmo conceito
+de react, ele vai vai usar componetização nos stilos."
+
+-----------------------------------------------------------------------------------
+entendendo HOFS --> HOF's:  
+
+ / higher-order-functions-no-javascript  
+ ----------------------------------------------------------------------------------
+
+5º instalação do axios para consumir a nossa api.
+
+npm i axios
+
+6º instalação do react-router-dom
+React router DOM - Utilizando
+reactrouter.com
+
+npm install react-router-dom match-sorter sort-by
+
+7º instalação do react-hook-form.com
+npm install react-hook-form
+
+8º instalação hookform/ resolvers (validação de dados)
+npm install @hookform/resolvers zod
+
+9º criação de esquema
+zod.dev
+
+10º instalação de cookies
+npm i js-cookie
+
+11º instalação npm install -g react-devtools
+npm install -g react-devtools
+ 
+
+

@@ -1,5 +1,5 @@
 import { Link, Outlet, useNavigate } from "react-router-dom";
-import logo from "../../images/LogoBN.png";
+import logo from "../../images/LogoWPP4.png";
 import {
   ErrorSpan,
   ImageLogo,
@@ -48,7 +48,7 @@ export function Navbar() {
     navigate("/");
   }
 
-  useEffect(() => {
+  useEffect(() => { //sempre renderizar o meu Navbar faz a busca, a busca será apenas se tiver o token no cookie
     if (Cookies.get("token")) findUserLogged();
   }, []);
 
@@ -70,12 +70,12 @@ export function Navbar() {
         </form>
 
         <Link to="/">
-          <ImageLogo src={logo} alt="Logo do Breaking News" />
+          <ImageLogo src={logo} alt="Logo do WPP NEWS NETWORK" />
         </Link>
 
         {user ? (
           <UserLoggedSpace>
-            <Link to="/profile">
+            <Link to="/profile" style={{textDecorantion: 'none'}}>
               <h2>{user.name}</h2>
             </Link>
 

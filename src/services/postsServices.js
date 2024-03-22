@@ -1,18 +1,18 @@
 import axios from "axios";
 
-const baseURL = "http://localhost:3001";
+const DATABASE_URL = "http://localhost:3001";
 
 export function getAllPosts() {
-  const response = axios.get(`${baseURL}/posts`); 
+  const response = axios.get(`${DATABASE_URL}/posts`); 
   return response;
 }
 
 export function getTopPost() {
-  const response = axios.get(`${baseURL}/posts/top`); 
+  const response = axios.get(`${DATABASE_URL}/posts/top`); 
   return response;
 }
 
 export function searchPosts(title) {
-  const response = axios.get(`${baseURL}/posts/search?title=${title}`);
+  const response = axios.get(`${DATABASE_URL}/posts/search?title=${title}`);
   return response;
 }
