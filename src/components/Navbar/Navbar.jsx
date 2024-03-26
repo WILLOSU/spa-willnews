@@ -48,7 +48,7 @@ export function Navbar() {
     navigate("/");
   }
 
-  useEffect(() => { //sempre renderizar o meu Navbar faz a busca, a busca será apenas se tiver o token no cookie
+  useEffect(() => {
     if (Cookies.get("token")) findUserLogged();
   }, []);
 
@@ -70,12 +70,12 @@ export function Navbar() {
         </form>
 
         <Link to="/">
-          <ImageLogo src={logo} alt="Logo do WPP NEWS NETWORK" />
+          <ImageLogo src={logo} alt="Logo WPP NEWS" />
         </Link>
 
         {user ? (
           <UserLoggedSpace>
-            <Link to="/profile" style={{textDecorantion: 'none'}}>
+            <Link to="/profile" style={{textDecoration: 'none'}}>
               <h2>{user.name}</h2>
             </Link>
 

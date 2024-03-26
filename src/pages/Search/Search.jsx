@@ -12,6 +12,7 @@ export function Search() {
     try {
       const postsApi = await searchPosts(title);
       setPosts(postsApi.data.foundPosts);
+      console.log(postsApi);
     } catch (err) {
       console.log(err);
       setPosts([]);
@@ -20,7 +21,7 @@ export function Search() {
 
   useEffect(() => {
     search();
-  }, [title]);
+  }, [title]); // renderizado toda hora que eu mudar o title
 
   return (
     <ContainerResults>

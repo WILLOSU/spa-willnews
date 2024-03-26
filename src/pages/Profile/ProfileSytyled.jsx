@@ -22,7 +22,7 @@ export const ProfileHeader = styled.header`
 
 `;
 
-export const ProfileIconEdit = styled.i`
+export const ProfileIconEdit = styled.i` //ok
   position: absolute;
   top: 1rem;
   right: 1rem;

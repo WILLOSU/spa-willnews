@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
-import { Helmet } from 'react-helmet';
 import { Navbar } from "./components/Navbar/Navbar";
 import Home from "./pages/Home/Home";
 import { Search } from "./pages/Search/Search";
@@ -13,7 +12,7 @@ import UserProvider from "./Context/UserContext";
 
 const router = createBrowserRouter([
   {
-    path: "/", // rota mãe
+    path: "/",
     element: <Navbar />,
     errorElement: <ErrorPage />,
     children: [

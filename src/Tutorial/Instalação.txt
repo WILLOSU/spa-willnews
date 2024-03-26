@@ -71,6 +71,13 @@ npm i js-cookie
 
 11º instalação npm install -g react-devtools
 npm install -g react-devtools
+
+12º context api react native
  
 
 
+///// 
+
+
+       
+       
